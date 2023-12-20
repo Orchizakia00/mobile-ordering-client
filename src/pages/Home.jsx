@@ -1,3 +1,4 @@
+import { FaCartPlus } from "react-icons/fa";
 import { useLoaderData } from "react-router-dom";
 
 const Home = () => {
@@ -18,7 +19,7 @@ const Home = () => {
                                 <h2 className="card-title">{mobile.mobile_name}</h2>
                                 <div className="flex justify-between text-md">
                                     <div>
-                                        <p className="mb-2"><span className="font-bold ">Price:</span> {mobile.type}</p>
+                                        <p className="mb-2"><span className="font-bold ">Type:</span> {mobile.type}</p>
                                         <p className="mb-2"><span className="font-bold ">Processor:</span> {mobile.processor}</p>
                                         <p className="mb-2"><span className="font-bold ">Operating System:</span> {mobile.OS}</p>
                                     </div>
@@ -28,7 +29,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div className="card-actions justify-end">
-                                    <button className="btn btn-primary">Buy Now</button>
+                                    <button className="btn btn-accent hover:btn-ghost">Add To Cart <FaCartPlus></FaCartPlus></button>
                                 </div>
                             </div>
                         </div>)

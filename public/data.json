@@ -1,0 +1,222 @@
+[
+    {
+        "brand": "Samsung",
+        "mobile_name": "Galaxy S21",
+        "price": 999.99,
+        "type": "Smartphone",
+        "processor": "Exynos 2100",
+        "memory": "128GB",
+        "OS": "Android 11",
+        "image": "https://i.ibb.co/GRvf8WQ/1-12-500x500.jpg"
+    },
+    {
+        "brand": "Samsung",
+        "mobile_name": "Galaxy Note 20 Ultra",
+        "price": 1299.99,
+        "type": "Phablet",
+        "processor": "Exynos 990",
+        "memory": "256GB",
+        "OS": "Android 10",
+        "image": "https://i.ibb.co/kMmS3RQ/5-800x800.jpg"
+    },
+    {
+        "brand": "Samsung",
+        "mobile_name": "Galaxy A52",
+        "price": 399.99,
+        "type": "Smartphone",
+        "processor": "Snapdragon 720G",
+        "memory": "64GB",
+        "OS": "Android 11",
+        "image": "samsung_a52.jpg"
+    },
+    {
+        "brand": "Samsung",
+        "mobile_name": "Galaxy Z Fold 3",
+        "price": 1799.99,
+        "type": "Foldable",
+        "processor": "Snapdragon 888",
+        "memory": "512GB",
+        "OS": "Android 11",
+        "image": "samsung_z_fold_3.jpg"
+    },
+    {
+        "brand": "Apple",
+        "mobile_name": "iPhone 13 Pro",
+        "price": 1299.99,
+        "type": "Smartphone",
+        "processor": "A15 Bionic",
+        "memory": "256GB",
+        "OS": "iOS 15",
+        "image": "iphone_13_pro.jpg"
+    },
+    {
+        "brand": "Apple",
+        "mobile_name": "iPhone SE (2nd generation)",
+        "price": 399.99,
+        "type": "Smartphone",
+        "processor": "A13 Bionic",
+        "memory": "128GB",
+        "OS": "iOS 14",
+        "image": "iphone_se_2nd_gen.jpg"
+    },
+    {
+        "brand": "Apple",
+        "mobile_name": "iPhone XR",
+        "price": 599.99,
+        "type": "Smartphone",
+        "processor": "A12 Bionic",
+        "memory": "64GB",
+        "OS": "iOS 14",
+        "image": "iphone_xr.jpg"
+    },
+    {
+        "brand": "Google",
+        "mobile_name": "Pixel 6 Pro",
+        "price": 1099.99,
+        "type": "Smartphone",
+        "processor": "Tensor",
+        "memory": "256GB",
+        "OS": "Android 12",
+        "image": "pixel_6_pro.jpg"
+    },
+    {
+        "brand": "Google",
+        "mobile_name": "Pixel 5a",
+        "price": 449.99,
+        "type": "Smartphone",
+        "processor": "Snapdragon 765G",
+        "memory": "128GB",
+        "OS": "Android 11",
+        "image": "pixel_5a.jpg"
+    },
+    {
+        "brand": "Google",
+        "mobile_name": "Pixel 4a",
+        "price": 349.99,
+        "type": "Smartphone",
+        "processor": "Snapdragon 730G",
+        "memory": "128GB",
+        "OS": "Android 10",
+        "image": "pixel_4a.jpg"
+    },
+    {
+        "brand": "OnePlus",
+        "mobile_name": "OnePlus 9 Pro",
+        "price": 1199.99,
+        "type": "Smartphone",
+        "processor": "Snapdragon 888",
+        "memory": "256GB",
+        "OS": "OxygenOS 11",
+        "image": "oneplus_9_pro.jpg"
+    },
+    {
+        "brand": "OnePlus",
+        "mobile_name": "OnePlus Nord 2",
+        "price": 599.99,
+        "type": "Smartphone",
+        "processor": "MediaTek Dimensity 1200",
+        "memory": "128GB",
+        "OS": "OxygenOS 11",
+        "image": "oneplus_nord_2.jpg"
+    },
+    {
+        "brand": "OnePlus",
+        "mobile_name": "OnePlus 8T",
+        "price": 799.99,
+        "type": "Smartphone",
+        "processor": "Snapdragon 865",
+        "memory": "256GB",
+        "OS": "OxygenOS 11",
+        "image": "oneplus_8t.jpg"
+    },
+    {
+        "brand": "Huawei",
+        "mobile_name": "Huawei P50 Pro",
+        "price": 1299.99,
+        "type": "Smartphone",
+        "processor": "Kirin 9000",
+        "memory": "256GB",
+        "OS": "HarmonyOS 2",
+        "image": "huawei_p50_pro.jpg"
+    },
+    {
+        "brand": "Huawei",
+        "mobile_name": "Huawei Mate X2",
+        "price": 1999.99,
+        "type": "Foldable",
+        "processor": "Kirin 9000",
+        "memory": "512GB",
+        "OS": "HarmonyOS 2",
+        "image": "huawei_mate_x2.jpg"
+    },
+    {
+        "brand": "Huawei",
+        "mobile_name": "Huawei Nova 8 Pro",
+        "price": 699.99,
+        "type": "Smartphone",
+        "processor": "Kirin 985",
+        "memory": "128GB",
+        "OS": "EMUI 11",
+        "image": "huawei_nova_8_pro.jpg"
+    },
+    {
+        "brand": "Xiaomi",
+        "mobile_name": "Mi 11 Ultra",
+        "price": 1099.99,
+        "type": "Smartphone",
+        "processor": "Snapdragon 888",
+        "memory": "256GB",
+        "OS": "MIUI 12",
+        "image": "xiaomi_mi_11_ultra.jpg"
+    },
+    {
+        "brand": "Xiaomi",
+        "mobile_name": "Redmi Note 10 Pro",
+        "price": 349.99,
+        "type": "Smartphone",
+        "processor": "Snapdragon 732G",
+        "memory": "128GB",
+        "OS": "MIUI 12",
+        "image": "xiaomi_redmi_note_10_pro.jpg"
+    },
+    {
+        "brand": "Xiaomi",
+        "mobile_name": "Poco X3 Pro",
+        "price": 249.99,
+        "type": "Smartphone",
+        "processor": "Snapdragon 860",
+        "memory": "128GB",
+        "OS": "MIUI 12",
+        "image": "xiaomi_poco_x3_pro.jpg"
+    },
+    {
+        "brand": "Sony",
+        "mobile_name": "Xperia 1 III",
+        "price": 1299.99,
+        "type": "Smartphone",
+        "processor": "Snapdragon 888",
+        "memory": "256GB",
+        "OS": "Android 11",
+        "image": "xperia_1_iii.jpg"
+    },
+    {
+        "brand": "Sony",
+        "mobile_name": "Xperia 5 III",
+        "price": 1199.99,
+        "type": "Smartphone",
+        "processor": "Snapdragon 888",
+        "memory": "256GB",
+        "OS": "Android 11",
+        "image": "xperia_5_iii.jpg"
+    },
+    {
+        "brand": "Sony",
+        "mobile_name": "Xperia 10 III",
+        "price": 699.99,
+        "type": "Smartphone",
+        "processor": "Snapdragon 690",
+        "memory": "128GB",
+        "OS": "Android 11",
+        "image": "xperia_10_iii.jpg"
+    }
+]

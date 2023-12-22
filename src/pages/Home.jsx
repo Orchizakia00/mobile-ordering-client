@@ -1,9 +1,17 @@
+import { useQuery } from "@tanstack/react-query";
 import { FaCartPlus } from "react-icons/fa";
-import { useLoaderData } from "react-router-dom";
+import useAxios from "../hooks/useAxios";
 
 const Home = () => {
+    const axios = useAxios();
 
-    const mobiles = useLoaderData();
+    const { data: mobiles = [] } = useQuery({
+        queryKey: ['mobiles'],
+        queryFn: async () => {
+            const res = await axios.get('/mobiles');
+            return res.data;
+        }
+    });
     console.log(mobiles);
 
     return (

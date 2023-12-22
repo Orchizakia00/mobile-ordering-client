@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import { useQuery } from "@tanstack/react-query";
 import { FaCartPlus } from "react-icons/fa";
 import useAxios from "../hooks/useAxios";
 
-const Home = () => {
+const Home = ({ searchQuery }) => {
     const axios = useAxios();
 
     const { data: mobiles = [] } = useQuery({
@@ -14,12 +15,23 @@ const Home = () => {
     });
     console.log(mobiles);
 
+    const filteredMobiles = mobiles.filter(
+        (mobile) =>
+            mobile.mobile_name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+            mobile.brand.toLowerCase().includes(searchQuery.toLowerCase()) ||
+            mobile.type.toLowerCase().includes(searchQuery.toLowerCase()) ||
+            mobile.processor.toLowerCase().includes(searchQuery.toLowerCase()) ||
+            mobile.OS.toLowerCase().includes(searchQuery.toLowerCase()) ||
+            mobile.price.toString().includes(searchQuery.toLowerCase())
+        // Add more conditions for other properties if needed
+    );
+
     return (
         <div>
             <h2 className="text-center font-bold text-3xl">Our Mobiles</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 md:w-[90%] md:mx-auto">
                 {
-                    mobiles.map(mobile =>
+                    filteredMobiles.map(mobile =>
                         <div key={mobile.id} className="card card-compact md:w-72 lg:w-96 bg-base-100 shadow-xl">
                             <figure><img src={mobile.image} alt="Shoes" className="w-[300px] h-[300px]" /></figure>
                             <div className="card-body">

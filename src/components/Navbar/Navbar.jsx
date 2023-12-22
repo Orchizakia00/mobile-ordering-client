@@ -1,7 +1,14 @@
+/* eslint-disable react/prop-types */
+import { useState } from "react";
 import { FaSearch } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({ onSearch }) => {
+    const [searchQuery, setSearchQuery] = useState("");
+
+    const handleSearch = () => {
+        onSearch(searchQuery);
+    };
 
     const navItems = <>
         <Link to={'/'}><li><a>Home</a></li></Link>
@@ -31,9 +38,11 @@ const Navbar = () => {
 
                 <div className="flex gap-2">
                     <div className="form-control">
-                        <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
+                        <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto"
+                            value={searchQuery}
+                            onChange={(e) => setSearchQuery(e.target.value)} />
                     </div>
-                    <button className="btn btn-ghost"><FaSearch size={30}></FaSearch></button>
+                    <button onClick={handleSearch} className="btn btn-ghost"><FaSearch size={30}></FaSearch></button>
                 </div>
             </div>
         </div>

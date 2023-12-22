@@ -12,7 +12,7 @@ const Navbar = ({ onSearch }) => {
 
     const navItems = <>
         <Link to={'/'}><li><a>Home</a></li></Link>
-        <Link to={'/'}><li><a>Cart</a></li></Link>
+        <Link to={'/cart'}><li><a>Cart</a></li></Link>
     </>
 
     return (

@@ -1,6 +1,6 @@
 # Mobile Hut
 
-### Live Link: https://drunk-attempt.surge.sh
+### Live Link: https://mobile-hut-6f386.web.app
 
 ### Server Side Repository Link: https://github.com/Orchizakia00/mobile-ordering-server
 

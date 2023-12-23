@@ -63,7 +63,7 @@ const CartItem = ({ item }) => {
             <figure><img src={item.image} alt="Shoes" className="w-[300px] h-[300px]" /></figure>
             <div className="card-body">
                 <h2 className="card-title">{item.brand}</h2>
-                <h2 className="card-title">{item.item_name}</h2>
+                <h2 className="card-title">{item.mobile_name}</h2>
                 <div className="flex justify-between text-md">
                     <div>
                         <p className="mb-2"><span className="font-bold ">Type:</span> {item.type}</p>

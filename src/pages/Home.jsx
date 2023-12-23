@@ -34,8 +34,6 @@ const Home = () => {
         setFilteredMobiles(filtered);
     };
 
-
-
     return (
         <div>
             <Banner />

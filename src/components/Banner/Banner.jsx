@@ -7,7 +7,7 @@ const Banner = () => {
                 <div className="max-w-2xl">
                     <h1 className="mb-5 text-5xl font-bold">Discover Your Perfect Mobile Experience at Mobile Hut</h1>
                     <p className="mb-5">Explore a curated collection of the latest smartphones, cutting-edge technology, and unbeatable deals. Find the mobile that suits your lifestyle and unlocks a world of possibilities. Welcome to Mobile Hut, where innovation meets affordability!</p>
-                    <button className="btn btn-primary">Get Started</button>
+                    <button className="btn btn-accent">Get Started</button>
                 </div>
             </div>
         </div>

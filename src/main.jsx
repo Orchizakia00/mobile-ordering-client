@@ -1,16 +1,15 @@
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { Toaster } from 'react-hot-toast';
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
 import './index.css';
 import MainLayout from './layout/MainLayout';
-import Home from './pages/Home';
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import CartLayout from './layout/CartLayout';
 import Cart from './pages/Cart';
-import { Toaster } from 'react-hot-toast';
+import Home from './pages/Home';
 
 const queryClient = new QueryClient()
 
@@ -22,13 +21,7 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home />,
-      }
-    ]
-  },
-  {
-    path: '/cart',
-    element: <CartLayout />,
-    children: [
+      },
       {
         path: '/cart',
         element: <Cart />,
